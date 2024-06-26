@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    padding: 1rem 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-in-one h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+.nav-in-one a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+
+}
+.nav-in-two {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-in-two a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-in-two a:hover {
+    color: grey;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-section {
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    /* background-color: red; */
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: black;
+}
+.about-section p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 1rem;
+}
+.about-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.instagram-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+}
